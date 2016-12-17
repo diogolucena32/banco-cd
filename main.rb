@@ -1,3 +1,4 @@
+# Arquivo principal
 #!/usr/bin/ruby
 
 require "vrlib"
@@ -19,4 +20,6 @@ cliente.cpf = "12345678911"
 # Inicia a aplicação do banco passando nosso cliente como parâmetro
 banco = BancoConhecimentoDigital.new(cliente)
 banco.show_glade()
+
+
 
